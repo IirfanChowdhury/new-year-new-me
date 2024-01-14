@@ -73,8 +73,6 @@
     display: flex;
     gap: 60px;
     justify-content: center;
-    padding-left: 90px;
-    padding-right: 90px;
 }
 .next-plans-container .content img {
     padding-bottom: 20px;

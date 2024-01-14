@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-division {
+    background-image: url(../images/banner/banner3.png);
+    background-size: contain;
+}
+.header-container {
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 200px;
+    padding-bottom: 190px;
+}
+.header-title {
+    font-size: 80px;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+.header-description {
+    color: aliceblue;
+    padding-bottom: 30px;
+}
+.btn-primary {
+    padding: 15px 25px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 0;
+    color: rgb(0, 95, 172);
+}
+.last-year-container {
+    display: flex;
+    padding-left: 200px;
+    gap: 100px;
+}
+.last-year {
+    margin-top: 180px;
+    margin-right: 0;
+}
+.img-content {
+    padding-left: 30px;
+    padding-top: 220px;
+}
+.img-content-title {
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.img-content-description {
+    padding-bottom: 20px;
+}
+.img-content-order {
+    list-style: none;
+}
+.img-content-order li {
+    padding-top: 7px;
+}
+.img-content-order li::before {
+    content: " \2713";
+    color: green;
+    padding-right: 5px;
+}
+.next-plans-tittle h1 {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+.next-plans {
+    margin: 0;
+    margin-top: 90px;
+}
+.next-plans-container {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+.next-plans-container .content img {
+    padding-bottom: 20px;
+    padding-left: 35px;
+}
+.next-plans-container .content .content-header {
+    font-size: 40px;
+}
+.next-plans-container .content .content-description {
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+}
+.Contact {
+    margin: 120px 250px;
+    
+}
+.img-color {
+    background-image:url(../images/gradient1.png), url(../images/watch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
+.img-color .title {
+    padding-top: 20px;
+    font-size: 40px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    color: aliceblue;
+}
+.img-color .btn {
+    padding-left: 80px;
+    padding-bottom: 70px;
+}
+.footer-container {
+    display: flex;
+    gap: 420px;
+    justify-content: center;
+    color: aliceblue;
+    padding-top: 80px;
+    background-color: black;
+    padding-bottom: 200px;
+}
+.footer-contact .footer-title {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.footer-contact .footer-description {
+    padding-bottom: 20px;
+}
+
+.footer-input-title {
+    padding-bottom: 30px;
+}
+.footer-input-email {
+    height: 70px;
+    width: 340px;
+    padding-left: 20px;
+    background-color: black;
+    border-color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn-footer {
+    padding-top: 10px;
+}
+.contact-icon {
+    padding-top: 30px ;
+}
